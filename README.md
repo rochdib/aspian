@@ -4,10 +4,10 @@ Aspian is a content management and blogging platform built with ASP.NET Core usi
 ## Architecture
 The solution is organized into the following projects:
 
-# Aspian.Domain - Contains the core business logic and entities.
-# Aspian.Application - Implements use cases and orchestration logic.
-# Aspian.Infrastructure - Provides data access implementations.
-# Aspian.Web - The presentation layer, containing MVC controllers and views.
+# Aspian.Domain #  - Contains the core business logic and entities.
+# Aspian.Application # - Implements use cases and orchestration logic.
+# Aspian.Infrastructure # - Provides data access implementations.
+# Aspian.Web # - The presentation layer, containing MVC controllers and views.
 
 The architecture follows the principles of Domain-Driven Design, separating the domain logic from the infrastructure and presentation layers. 
 The domain layer contains entities, repositories, services, and domain events. 
